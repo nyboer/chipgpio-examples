@@ -6,8 +6,8 @@ class chuttons:
     def __init__(self):
         self.nom = ''
         # Pin configuration.
-        self.LS = "XIO-P2" #right side
-        self.RS = "XIO-P3" #left side
+        self.LS = "XIO-P2" #left side
+        self.RS = "XIO-P3" #right side
         self.TL = "XIO-P4" #top left
         self.MD = "XIO-P5" #top mid
         self.TR = "XIO-P6" #top right

@@ -28,7 +28,7 @@ class chuttons:
         state = True #TODO
         for listener in self.listeners:
             listener(self.nom,state)
-            
+
         return self.nom
 
     def cleanup(self):
@@ -49,9 +49,6 @@ if __name__ == "__main__":
         bz.cleanup()       # clean up GPIO on CTRL+C exit
     bz.cleanup()           # clean up GPIO on normal exit
 
-
-    
-    
 
 class Client:
     def processButton(self,nom,state):
